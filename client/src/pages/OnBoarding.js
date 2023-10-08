@@ -59,7 +59,7 @@ const OnBoarding = () => {
                 showModal={false}
 
             />
-            <div className="onboarding">
+            <div style={{background: "linear-gradient(#e66465, #9198e5)" }} className="onboarding">
                 <h2>Create Account</h2>
 
                 <form onSubmit={handleSubmit}>
