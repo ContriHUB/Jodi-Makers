@@ -3,6 +3,7 @@ import Nav from "../components/Nav"
 import { useCookies} from "react-cookie"
 import {useNavigate} from "react-router-dom"
 import axios from "axios"
+import Part from "../components/Part"
 
 const OnBoarding = () => {
 
@@ -59,6 +60,7 @@ const OnBoarding = () => {
                 showModal={false}
 
             />
+            <Part/>
             <div className="onboarding">
                 <h2>Create Account</h2>
 
