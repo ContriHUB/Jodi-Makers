@@ -3,6 +3,7 @@ import Nav from "../components/Nav"
 import { useCookies} from "react-cookie"
 import {useNavigate} from "react-router-dom"
 import axios from "axios"
+import Part from "../components/Part"
 
 const OnBoarding = () => {
 
@@ -59,7 +60,8 @@ const OnBoarding = () => {
                 showModal={false}
 
             />
-            <div style={{background: "linear-gradient(#e66465, #9198e5)" }} className="onboarding">
+            <Part/>
+            <div className="onboarding">
                 <h2>Create Account</h2>
 
                 <form onSubmit={handleSubmit}>
