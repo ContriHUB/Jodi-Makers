@@ -258,7 +258,8 @@ nav .logo-container .logo {
     width: 100%
 }
 
-  .wrapper {
+/* onboarding page background */
+.wrapper {
       width: 100%;
       height: 120%;
       position: absolute;
@@ -266,11 +267,11 @@ nav .logo-container .logo {
       background-size: 600% 100%;
       animation: gradient 16s linear infinite;
       animation-direction: alternate;
-  }
-  @keyframes gradient {
+}
+@keyframes gradient {
       0% {background-position: 0%}
       100% {background-position: 100%}
-  }
+}
 
 
 
