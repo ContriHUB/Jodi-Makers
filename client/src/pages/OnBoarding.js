@@ -59,7 +59,7 @@ const OnBoarding = () => {
                 showModal={false}
 
             />
-            <div className="onboarding">
+            <div className="onboarding wrapper">
                 <h2>Create Account</h2>
 
                 <form onSubmit={handleSubmit}>
