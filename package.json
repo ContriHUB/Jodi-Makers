@@ -1,0 +1,11 @@
+{
+  "name": "App.js",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+
+  "dependencies": {
+    "react-spring": "^9.7.3"
+  }
+}
